@@ -1,0 +1,108 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"9 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"14
+[v _key_press key_press `(uc  1 e 1 0 ]
+"13 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+"18
+[v _main main `(v  1 e 1 0 ]
+"8 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+"19
+[v _display display `(v  1 e 1 0 ]
+"166 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"18 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"23
+[v main@digit digit `[12]uc  1 a 12 0 ]
+"22
+[v main@ssd ssd `[4]uc  1 a 4 18 ]
+"21
+[v main@wait2 wait2 `ui  1 a 2 15 ]
+[v main@wait1 wait1 `ui  1 a 2 12 ]
+"20
+[v main@count count `uc  1 a 1 24 ]
+[v main@flag flag `uc  1 a 1 23 ]
+[v main@opt opt `uc  1 a 1 22 ]
+[v main@flag_count flag_count `uc  1 a 1 17 ]
+[v main@prev prev `uc  1 a 1 14 ]
+"21
+[v main@F995 F995 `[4]uc  1 s 4 F995 ]
+"22
+[v main@F997 F997 `[12]uc  1 s 12 F997 ]
+"92
+} 0
+"14 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\digital_keypad.c
+[v _key_press key_press `(uc  1 e 1 0 ]
+{
+"15
+[v key_press@left left `uc  1 s 1 left ]
+[v key_press@right right `uc  1 s 1 right ]
+[v key_press@stop stop `uc  1 s 1 stop ]
+[v key_press@start start `uc  1 s 1 start ]
+"36
+} 0
+"13 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"16
+} 0
+"8 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+{
+"17
+} 0
+"9 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"12
+} 0
+"19 D:\MicroController Projects\Assignments\Assignment_10_Scrolling_Number_Marquee.X\ssd.c
+[v _display display `(v  1 e 1 0 ]
+{
+"28
+[v display@wait wait `ul  1 a 4 5 ]
+"21
+[v display@digit digit `uc  1 a 1 9 ]
+"19
+[v display@data data `*.4uc  1 p 1 0 ]
+"30
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0

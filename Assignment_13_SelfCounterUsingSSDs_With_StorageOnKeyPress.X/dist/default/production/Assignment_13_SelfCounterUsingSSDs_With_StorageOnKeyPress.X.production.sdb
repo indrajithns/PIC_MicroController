@@ -1,0 +1,215 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+"11 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+"16
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+"15 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\main.c
+[v _eeprom_test eeprom_test `(uc  1 e 1 0 ]
+"25
+[v _init_config init_config `(v  1 s 1 init_config ]
+"31
+[v _main main `(v  1 e 1 0 ]
+"10 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+"20
+[v _display display `(v  1 e 1 0 ]
+[s S103 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 nPD 1 0 :1:3 
+`uc 1 nTO 1 0 :1:4 
+`uc 1 RP 1 0 :2:5 
+`uc 1 IRP 1 0 :1:7 
+]
+"99 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[s S111 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RP0 1 0 :1:5 
+`uc 1 RP1 1 0 :1:6 
+]
+[s S115 . 1 `uc 1 CARRY 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ZERO 1 0 :1:2 
+]
+[u S119 . 1 `S103 1 . 1 0 `S111 1 . 1 0 `S115 1 . 1 0 ]
+[v _STATUSbits STATUSbits `VES119  1 e 1 @3 ]
+"166
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S140 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"477
+[s S149 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S154 . 1 `S140 1 . 1 0 `S149 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES154  1 e 1 @11 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2288
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"2295
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"2316
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+[s S83 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"2331
+[u S90 . 1 `S83 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES90  1 e 1 @396 ]
+"2361
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"31 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"44
+[v main@digits digits `[10]uc  1 a 10 14 ]
+"43
+[v main@ssd ssd `[4]uc  1 a 4 24 ]
+"34
+[v main@wait wait `ui  1 a 2 28 ]
+"32
+[v main@key key `uc  1 a 1 30 ]
+"33
+[v main@count count `ui  1 s 2 count ]
+"41
+[v main@F1000 F1000 `[4]uc  1 s 4 F1000 ]
+"43
+[v main@F1002 F1002 `[10]uc  1 s 10 F1002 ]
+"74
+} 0
+"16 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\digital_keypad.c
+[v _read_digital_keypad read_digital_keypad `(uc  1 e 1 0 ]
+{
+[v read_digital_keypad@mode mode `uc  1 p 1 wreg ]
+[v read_digital_keypad@mode mode `uc  1 p 1 wreg ]
+"17
+[v read_digital_keypad@once once `uc  1 s 1 once ]
+"19
+[v read_digital_keypad@mode mode `uc  1 p 1 1 ]
+"32
+} 0
+"25 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"29
+} 0
+"10 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\ssd.c
+[v _init_ssd init_ssd `(v  1 e 1 0 ]
+{
+"18
+} 0
+"11 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\digital_keypad.c
+[v _init_digital_keypad init_digital_keypad `(v  1 e 1 0 ]
+{
+"14
+} 0
+"15 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\main.c
+[v _eeprom_test eeprom_test `(uc  1 e 1 0 ]
+{
+[v eeprom_test@count count `ui  1 p 2 0 ]
+"23
+} 0
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+{
+[v eeprom_write@addr addr `uc  1 p 1 wreg ]
+[v eeprom_write@addr addr `uc  1 p 1 wreg ]
+[v eeprom_write@value value `uc  1 p 1 12 ]
+[v eeprom_write@addr addr `uc  1 p 1 13 ]
+"9
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 p 1 wreg ]
+[v eeprom_read@addr addr `uc  1 p 1 wreg ]
+"9
+[v eeprom_read@addr addr `uc  1 p 1 0 ]
+"19
+} 0
+"20 D:\MicroController Projects\Assignments\Assignment_13_SelfCounterUsingSSDs_With_StorageOnKeyPress.X\ssd.c
+[v _display display `(v  1 e 1 0 ]
+{
+"27
+[v display@wait wait `ul  1 a 4 5 ]
+"21
+[v display@digit digit `uc  1 a 1 9 ]
+"20
+[v display@data data `*.4uc  1 p 1 0 ]
+"29
+} 0
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 5 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 1 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 3 ]
+"53
+} 0
