@@ -1,0 +1,150 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"9 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\clcd.c
+[v _clcd_write clcd_write `(v  1 s 1 clcd_write ]
+"20
+[v _init_display_controller init_display_controller `(v  1 s 1 init_display_controller ]
+"40
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+"51
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+"56
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+"20 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+"25
+[v _main main `(v  1 e 1 0 ]
+"9 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\uart.c
+[v _init_uart init_uart `(v  1 e 1 0 ]
+"20
+[v _getchar getchar `(uc  1 e 1 0 ]
+"33
+[v _putchar putchar `(v  1 e 1 0 ]
+"340 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc/pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1059
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1066
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2515
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2743
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2776
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2779
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2812
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"3010
+[v _TRISE1 TRISE1 `VEb  1 e 0 @1097 ]
+"3013
+[v _TRISE2 TRISE2 `VEb  1 e 0 @1098 ]
+"3037
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"25 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"31
+[v main@line_1 line_1 `[17]uc  1 a 17 29 ]
+"32
+[v main@line_2 line_2 `[17]uc  1 a 17 12 ]
+"30
+[v main@i i `uc  1 a 1 48 ]
+"29
+[v main@ch ch `uc  1 a 1 47 ]
+"28
+[v main@flag flag `uc  1 a 1 46 ]
+"31
+[v main@F1167 F1167 `[17]uc  1 s 17 F1167 ]
+"59
+} 0
+"33 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\uart.c
+[v _putchar putchar `(v  1 e 1 0 ]
+{
+[v putchar@data data `uc  1 p 1 wreg ]
+[v putchar@data data `uc  1 p 1 wreg ]
+"35
+[v putchar@data data `uc  1 p 1 0 ]
+"44
+} 0
+"20 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"23
+} 0
+"9 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\uart.c
+[v _init_uart init_uart `(v  1 e 1 0 ]
+{
+[v init_uart@baud baud `ul  1 p 4 0 ]
+"18
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"40 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\clcd.c
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+{
+"49
+} 0
+"20
+[v _init_display_controller init_display_controller `(v  1 s 1 init_display_controller ]
+{
+"38
+} 0
+"20 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\uart.c
+[v _getchar getchar `(uc  1 e 1 0 ]
+{
+"31
+} 0
+"51 D:\MicroController Projects\Assignments\Assignment_16_Message_Display_Using_UART_CLCD.X\clcd.c
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+{
+[v clcd_putch@data data `DCuc  1 p 1 wreg ]
+[v clcd_putch@data data `DCuc  1 p 1 wreg ]
+[v clcd_putch@addr addr `uc  1 p 1 4 ]
+[v clcd_putch@data data `DCuc  1 p 1 5 ]
+"54
+} 0
+"56
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+{
+[v clcd_print@str str `*.4DCuc  1 p 1 4 ]
+[v clcd_print@addr addr `uc  1 p 1 5 ]
+"63
+} 0
+"9
+[v _clcd_write clcd_write `(v  1 s 1 clcd_write ]
+{
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@mode mode `uc  1 p 1 0 ]
+[v clcd_write@byte byte `uc  1 p 1 3 ]
+"18
+} 0
